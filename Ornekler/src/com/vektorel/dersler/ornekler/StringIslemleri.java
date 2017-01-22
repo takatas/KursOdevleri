@@ -10,7 +10,6 @@ public class StringIslemleri {
 		System.out.println("Mesaj Giriniz :");
 		
 		Scanner scanner = new Scanner(System.in); 
-		
 		String giris = scanner.nextLine();
 		
 		stringIslemleriTest(giris);
