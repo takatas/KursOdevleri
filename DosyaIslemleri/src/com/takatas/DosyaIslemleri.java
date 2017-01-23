@@ -14,6 +14,7 @@ public class DosyaIslemleri {
 	public static void main(String[] args) {
 
 		System.out.println(dosyaOku());
+		System.out.println("-----------------------------------------");
 
 		try {
 			dosyaYaz(dosyaOku());
