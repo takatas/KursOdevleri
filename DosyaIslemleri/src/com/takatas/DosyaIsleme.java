@@ -8,14 +8,43 @@ import java.util.Scanner;
 public class DosyaIsleme {
 
 	static String fileSeparator = System.getProperty("file.separator");
+	static String veri = "@PatNo:234562@Pat:Taner TEMEL@Age:45@HBG:23@AG:45@#"
+			+ "@PatNo:234563@Pat:Kemal TEMEL@Age:34@HBG:24@AG:45@#"
+			+ "@PatNo:234564@Pat:Cemal TEMEL@Age:23@HBG:43@AG:45@#"
+			+ "@PatNo:234565@Pat:Ayþe TEMEL@Age:5@HBG:33@AG:45@#"
+			+ "@PatNo:234566@Pat:Fatma TEMEL@Age:75@HBG:13@AG:45@#"
+			+ "@PatNo:234562@Pat:Mustafa TEMEL@Age:45@HBG:25@AG:45@#"
+			+ "@PatNo:234563@Pat:Mehmet TEMEL@Age:34@HBG:27@AG:45@#"
+			+ "@PatNo:234565@Pat:Hatice TEMEL@Age:5@HBG:26@AG:45@#"
+			+ "@PatNo:234566@Pat:Canan TEMEL@Age:75@HBG:29@AG:45@#";
 
 	public static void main(String[] args) {
 
-		System.out.println(dosyaOku());
+		Scanner scanner = new Scanner(System.in);
 
+		System.out.println("1 - Bilgileri Deðiþkenden Oku");
+		System.out.println("2 - Bilgileri Dosyadan Oku");
+
+		System.out.println("Deðer Giriniz...");
+		int deger = scanner.nextInt();
 		System.out.println("-------------------------------------");
 
-		dosyaParsEt(dosyaOku());
+		switch (deger) {
+		case 1:
+			dosyaParsEt(veri);
+
+			break;
+		case 2:
+			dosyaParsEt(dosyaOku());
+
+			break;
+
+		default:
+			break;
+		}
+
+		System.out.println(dosyaOku());
+
 	}
 
 	private static String dosyaOku() {
