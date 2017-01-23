@@ -1,7 +1,6 @@
 package com.vektorel.dersler.ornekler;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Scanner;
 
@@ -27,7 +26,7 @@ public class DosyaIslemleri {
 	private static String dosyaOku() {
 		String icerik = "";
 		try {
-			File file = new File("D:" + fileSeparator + "TTEMEL"+ fileSeparator + "test.txt");
+			File file = new File("D:" + fileSeparator + "soner"+ fileSeparator + "test.txt");
 			Scanner scanner = new Scanner(file);
 			while (scanner.hasNext()) {
 				icerik += scanner.nextLine();
@@ -40,7 +39,7 @@ public class DosyaIslemleri {
 
 	private static void dosyaYaz(String metin, String dosyaAdi) {
 		try {
-			String rootPath = "D:" + fileSeparator + "TTEMEL" + fileSeparator;
+			String rootPath = "E:" + fileSeparator + "TTEMEL" + fileSeparator;
 			File file = new File(rootPath + dosyaAdi);
 
 			if (!file.exists()) {
