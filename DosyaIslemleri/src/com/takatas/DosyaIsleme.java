@@ -29,13 +29,6 @@ public class DosyaIsleme {
 		System.out.println("Deðer Giriniz...");
 		int deger = scanner.nextInt();
 		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
-		System.out.println("---------------------------------------");
 
 		switch (deger) {
 		case 1:
