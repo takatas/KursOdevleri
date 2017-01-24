@@ -30,6 +30,7 @@ public class DosyaIsleme {
 		int deger = scanner.nextInt();
 		System.out.println("---------------------------------------");
 		System.out.println("---------------------------------------");
+		System.out.println("---------------------------------------");
 
 		switch (deger) {
 		case 1:
