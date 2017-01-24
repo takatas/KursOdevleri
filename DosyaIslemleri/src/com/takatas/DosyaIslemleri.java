@@ -21,7 +21,7 @@ public class DosyaIslemleri {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		System.out.println("-----------------------------------------");
 	}
 
 	private static String dosyaOku() {
