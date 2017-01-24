@@ -45,6 +45,7 @@ public class DosyaIsleme {
 
 		System.out.println(dosyaOku());
 		System.out.println("-----------------------------------------");
+		System.out.println("-----------------------------------------");
 		
 
 	}
