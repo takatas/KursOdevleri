@@ -24,9 +24,11 @@ public class DosyaIsleme {
 
 		System.out.println("1 - Bilgileri Deðiþkenden Oku");
 		System.out.println("2 - Bilgileri Dosyadan Oku");
+		System.out.println("3 - Çýkýþ");
 
 		System.out.println("Deðer Giriniz...");
 		int deger = scanner.nextInt();
+		System.out.println("---------------------------------------");
 		System.out.println("---------------------------------------");
 		System.out.println("---------------------------------------");
 		System.out.println("---------------------------------------");
@@ -43,6 +45,8 @@ public class DosyaIsleme {
 		case 2:
 			dosyaParsEt(dosyaOku());
 
+			break;
+		case 3:
 			break;
 
 		default:
