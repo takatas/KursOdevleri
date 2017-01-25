@@ -31,6 +31,7 @@ public class DosyaIsleme {
 		System.out.println("---------------------------------------");
 		System.out.println("---------------------------------------");
 
+
 		switch (deger) {
 		case 1:
 			dosyaParsEt(veri);
@@ -49,12 +50,7 @@ public class DosyaIsleme {
 
 		System.out.println(dosyaOku());
 		System.out.println("-----------------------------------------");
-		System.out.println("-----------------------------------------");
-		System.out.println("-----------------------------------------");
-		System.out.println("-----------------------------------------");
-		System.out.println("-----------------------------------------");
-		System.out.println("-----------------------------------------");
-		
+
 
 	}
 
